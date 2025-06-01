@@ -111,7 +111,6 @@ docker run --name quickfleet-db -e MYSQL_ROOT_PASSWORD=root -p 3306:3306 custom-
 
 * Email notifications for order updates
 * Admin dashboard with analytics
-* Frontend using React
 * Cloud deployment (AWS EC2 + RDS)
 
 ---
