@@ -1,10 +1,10 @@
 package com.quickfleet.service;
 
+import com.quickfleet.config.JwtUtil;
 import com.quickfleet.dto.AuthResponse;
 import com.quickfleet.dto.LoginRequest;
 import com.quickfleet.model.User;
 import com.quickfleet.repository.UserRepository;
-import com.quickfleet.util.JwtUtil;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
